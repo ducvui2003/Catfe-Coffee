@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 1440px;
+    height: 1131px;
+}
+
+.login {
+    background-color: var(--primary-color-low);
+}
+
+.login__frame {}
+
+.login__logo {}
+
+.login__input {}
+
+.login__forgetPassword {}
+
+.login__button {}

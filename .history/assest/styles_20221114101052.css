@@ -1,0 +1,35 @@
+.main {
+}
+.login {
+}
+.login__frame {
+}
+.login__frame .logo {
+  display: flex;
+  align-items: center;
+}
+.login__frame .logo img {
+  width: 100px;
+}
+.login__frame .logo p {
+  display: inline-block;
+}
+
+.login__input {
+}
+
+.login__forgetPassword {
+}
+.roboto__14px {
+}
+
+.hover {
+}
+.login__button {
+}
+.login__registry {
+}
+.login__social {
+}
+.box {
+}

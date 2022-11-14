@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    height: 100%;
+}
+
+
+/* Login and registry */
+
+.login {
+    background-color: var(--primary-color-low);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__frame {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+
+
+/* .login__frame .login__logo {
+    text-align: center;
+}
+
+.login__frame .login__logo img {
+    display: inline-block;
+    border: solid 3px black;
+    border-radius: 50%;
+} */
+
+.login__frame .login__input {
+    padding-top: 30px;
+    /* min-width: 600px; */
+    width: 100%;
+}
+
+.login__frame .login__input p {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.login__frame .login__input input {
+    border-radius: 10px;
+    border: solid 3px var(--secondary-color);
+    padding: 0px 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.login__frame .login__input i {
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.login__frame .login__forgetPassword {
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    color: var(--primary-text);
+}
+
+.login__frame .login__button {
+    display: block;
+    width: 100%;
+    margin-top: 45px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: var(--secondary-color);
+    color: var(--secondary-text);
+}
+
+.login__frame .login__registry {
+    width: 70%;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.login__frame .login__registry p {
+    margin-top: 25px;
+}
+
+.login__frame .login__registry a {
+    text-decoration: none;
+    color: var(--primary-text);
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-twitter {
+    color: #55ACEE;
+}
+
+.fa-facebook-f {
+    color: #4267B2;
+}
+
+.login__frame .login__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin: 26px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.login__frame .login__social>div {
+    padding: 9px 14px;
+}
+
+.login__frame .login__social>p {
+    color: var(--primary-tex);
+}
+
+.login__frame .login__social .hover:hover {
+    box-shadow: -5.51724px 5.51724px 5.51724px rgba(0, 0, 0, 0.25), 5.51724px 5.51724px 5.51724px rgba(0, 0, 0, 0.52);
+    cursor: pointer;
+}
+
+
+/* Landing */
+
+.landing__frame {
+    height: 100%;
+}
+
+.landing_navigate {}
+
+.navigate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px;
+    gap: 58px;
+    width: 100%;
+    height: 105px;
+    background: #EFCA96;
+    border-radius: 0px 0px 30px 30px;
+    margin: 0;
+}
+
+.navigate li {
+    list-style-type: none;
+}
+
+.navigate .logo {}
+
+.navigate>li:nth-child(2) {
+    flex: 1;
+}
+
+.navigate .navigate__items {
+    /* Catagorize */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 45px;
+    width: 100%;
+    height: 77.59px;
+    border-radius: 0px 0px 30px 30px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}

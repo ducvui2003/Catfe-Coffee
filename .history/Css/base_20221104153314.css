@@ -1,0 +1,12 @@
+:root {
+    --primarly-color: #EFCA96;
+    --primarly-color-low: #FFE4C3;
+    --secondary-color: #5E442E;
+    --primarly-text: #000;
+    --primarly-text-low: rgba(0, 0, 0, 0.5);
+    --secondary-text: #fff;
+    --red: #FF0A0A;
+    --blue: 3244EF;
+    --blue-low: #0476FC;
+    --blue-medium: #0476FC;
+}

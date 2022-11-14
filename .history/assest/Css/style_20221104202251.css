@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 1131px;
+}
+
+.login {
+    width: 100%;
+    height: 1400px;
+    background-color: var(--primary-color-low);
+    position: relative;
+}
+
+.login__frame {
+    width: 700px;
+    height: 700px;
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+
+.login__frame .login__logo {
+    text-align: center;
+}
+
+.login__frame .login__input {
+    padding-top: 50px;
+}
+
+.login__frame .login__input input {
+    border-radius: 10px;
+    padding: 0px 10px;
+    width: 100%;
+    height: 40px;
+}
+
+.login__frame .login__input p {
+    padding-bottom: 5px;
+}
+
+.login__frame .login__input i {
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.login__frame .login__forgetPassword {
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    padding: 20px 0;
+    color: var(--primary-text);
+}
+
+.login__frame .login__button {
+    display: inline-block;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: var(--secondary-color);
+    color: var(--secondary-text);
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}

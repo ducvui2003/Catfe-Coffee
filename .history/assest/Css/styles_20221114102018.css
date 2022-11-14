@@ -1,0 +1,55 @@
+.main {
+}
+.login {
+  position: relative;
+}
+.login .login__frame {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  /* background-color: white;
+  border-radius: 10px;
+  padding: 40px 30px; */
+}
+.login__frame .logo {
+  display: flex;
+  align-items: center;
+  
+}
+.login__frame .logo img {
+  width: 100px;
+}
+.login__frame .logo p {
+  display: inline-block;
+}
+
+.login__input {
+  display: block;
+
+}
+.login__input input{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.login__forgetPassword {
+  display: block;
+  width: 100%;
+  text-align: right;
+  text-decoration: none;
+}
+
+
+.login__button {
+  display: block;
+  width: 100%;
+
+}
+.login__registry {
+}
+.login__social {
+}
+.box {
+}

@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.frame {
+    background-color: #000;
+    position: relative;
+}
+
+.loginFrame {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: #fff;
+    width: 678px;
+    height: 770px;
+}

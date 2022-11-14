@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    height: 1131px;
+}
+
+.frame {
+    background-color: #EFCA96;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.loginFrame {
+    position: relative;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: #fff;
+    width: 678px;
+    height: 770px;
+    border-radius: 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 1/3%;
+    width: 96px;
+    height: 96px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo h1 {
+    text-align: center;
+}
