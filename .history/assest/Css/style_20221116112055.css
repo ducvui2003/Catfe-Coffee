@@ -442,7 +442,6 @@ body {
 .bottom__page .bottom__page__facebook .container__info {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 20px;
 
   position: absolute;

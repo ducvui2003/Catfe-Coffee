@@ -442,7 +442,6 @@ body {
 .bottom__page .bottom__page__facebook .container__info {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 20px;
 
   position: absolute;
@@ -451,8 +450,6 @@ body {
 }
 .bottom__page .bottom__page__facebook .wrap {
   display: flex;
-  gap: 10px;
-  align-items: center;
 }
 .bottom__page__facebook .wrap:nth-child(2) {
   position: absolute;
@@ -465,13 +462,10 @@ body {
   right: 14px;
   bottom: 19px;
 }
-
-.bottom__page .bottom__page__facebook .wrap span {
-  margin: auto;
+.bottom__page .bottom__page__facebook span {
+  display: inline-block;
+  width: 50%;
   background-color: #fff;
-}
-.bottom__page .bottom__page__facebook .wrap i {
-  width: 100%;
 }
 .bottom__page .bottom__page__facebook .logo {
   margin: 10px auto;

@@ -442,7 +442,6 @@ body {
 .bottom__page .bottom__page__facebook .container__info {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 20px;
 
   position: absolute;
@@ -466,12 +465,12 @@ body {
   bottom: 19px;
 }
 
+.bottom__page .bottom__page__facebook .wrap i{
+width: 100%;
+}
 .bottom__page .bottom__page__facebook .wrap span {
   margin: auto;
   background-color: #fff;
-}
-.bottom__page .bottom__page__facebook .wrap i {
-  width: 100%;
 }
 .bottom__page .bottom__page__facebook .logo {
   margin: 10px auto;
